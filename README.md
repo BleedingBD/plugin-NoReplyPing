@@ -2,6 +2,8 @@
 
 This plugin will automatically set replies to not ping the user you are replying to. Using this plugins you will no longer accidentally ping someone when you are trying to reply to them without pinging them.
 
+But what this plugin **will not** do is stop incoming pings from users that did not turn off the ping option. This plugin only affects the pings on replies you make.
+
 ![Screenshot](https://raw.githubusercontent.com/BleedingBD/plugin-NoReplyPing/main/_meta/thumbnail.png)
 
 ## Acknowledgements
