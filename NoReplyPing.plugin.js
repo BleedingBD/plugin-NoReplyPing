@@ -15,7 +15,7 @@ module.exports = class NoReplyPing {
         this.api = new BdApi(meta.name);
 
         const { Filters } = this.api.Webpack;
-        this.replyBar = this.getModuleAndKey(Filters.byStrings('.shouldMention', '.showMentionToggle'));
+        this.replyBar = this.getModuleAndKey(Filters.byStrings('type:"CREATE_PENDING_REPLY"'));
     }
 
     getModuleAndKey(filter) {
@@ -28,7 +28,7 @@ module.exports = class NoReplyPing {
 
     start() {
         if (!this.replyBar) {
-            console.error(`${meta.name}: Unable to start because the reply bar module could not be found.`);
+            console.error(`${this.meta.name}: Unable to start because the reply bar module could not be found.`);
             return;
         }
 
