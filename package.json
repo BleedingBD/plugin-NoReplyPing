@@ -4,19 +4,19 @@
     "description": "Automatically sets replies to not ping the target.",
     "main": "NoReplyPing.plugin.js",
     "scripts": {
-      "format": "prettier --write \"./*.js\""
+        "format": "prettier --write \"./*.js\""
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/BleedingBD/plugin-NoReplyPing.git"
+        "type": "git",
+        "url": "git+https://github.com/BleedingBD/plugin-NoReplyPing.git"
     },
     "author": "Qb",
     "license": "Unlicense",
     "bugs": {
-      "url": "https://github.com/BleedingBD/plugin-NoReplyPing/issues"
+        "url": "https://github.com/BleedingBD/plugin-NoReplyPing/issues"
     },
     "homepage": "https://github.com/BleedingBD/plugin-NoReplyPing#readme",
     "devDependencies": {
-      "prettier": "^2.8.7"
+        "prettier": "^3.0.3"
     }
-  }
+}
