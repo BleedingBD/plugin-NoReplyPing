@@ -4,7 +4,7 @@
  * @author Qb
  * @authorId 133659541198864384
  * @authorLink https://github.com/BleedingBD/
- * @version 1.0.0
+ * @version 1.0.1
  * @invite gj7JFa6mF8
  * @source https://github.com/BleedingBD/plugin-NoReplyPing/blob/main/NoReplyPing.plugin.js
  * @updateUrl https://raw.githubusercontent.com/BleedingBD/plugin-NoReplyPing/main/NoReplyPing.plugin.js
